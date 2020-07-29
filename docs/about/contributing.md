@@ -26,14 +26,15 @@ If you are familiar with GitHub please either:
   
   - Or write up your use case and submit it as a pull request (PR). Please follow the [Use Case Style Guide](#usecasestyle) below.
   
-Please add labels to issues to help us quickly locate issue types. Some useful labels include: `new use case`, `help wanted`, `question`, or `enhancement`.
+Please add labels to issue titles to help us quickly locate issue types. Some useful labels are: [new use case], [help wanted], [question], or [enhancement].
+
 
 ### PR process
 If you are submitting a pull request, please create one pull request per use case so admin can check the complete change.
 
 **First, preview new changes:**
 
-  - Create a new branch in the [use cases repo](https://github.com/nih-cfde/usecases)
+  - Create a new branch in the [use cases repo](https://github.com/nih-cfde/usecases) or fork the repo and create a new branch in your forked version of the repo
   - Use the [use case file templates](https://github.com/nih-cfde/usecases/tree/master/docs/template_files) to add your new use case files
   - Submit a PR from your branch to the `preview` branch
   - After you submit the PR, make sure the repo checks complete (green check mark)
@@ -42,7 +43,7 @@ If you are submitting a pull request, please create one pull request per use cas
 **Second, if you are satisfied with the changes:**
 
   - Submit a new PR from your branch to the `master` branch
-  - Request reviews from @Acharbonneau and @marisalim
+  - Request reviews from Use Case maintainers by typing `@Acharbonneau` and `@marisalim` in your PR text box
   - Please allow up to one week for admin to review your request
 
 
