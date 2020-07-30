@@ -16,4 +16,5 @@ For previewing your changes:
 
 For requesting final PR to the `master` branch:
 - [ ] Please provide a short description of the changes you're requesting.
+- [ ] Did the changes render as expected on the `preview` website?
 - [ ] Request review from @ACharbonneau and @marisalim
