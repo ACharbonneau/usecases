@@ -1,6 +1,15 @@
+---
+layout: default
+name: NewUseCasePR
+about: Submitting new use case PR
+title: [New use case] Add use case idea title
+labels:
+assignees:
+---
 
-Please enter a short but specific title for the pull request.
 
-Please provide a short description of the changes you're requesting.
+- [ ] Please provide a short description of the changes you're requesting.
 
-Request review from @ACharbonneau and @marisalim
+- [ ] (**TO DO** placeholder for previewing instructions)
+
+- [ ] Request review from @ACharbonneau and @marisalim
