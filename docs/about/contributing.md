@@ -34,16 +34,24 @@ If you are submitting a pull request, please create one pull request per use cas
 
 **First, preview new changes:**
 
-  - Create a new branch in the [use cases repo](https://github.com/nih-cfde/usecases) or fork the repo and create a new branch in your forked version of the repo
-  - Use the [use case file templates](https://github.com/nih-cfde/usecases/tree/master/docs/template_files) to add your new use case files
-  - Submit a PR from your branch to the `preview` branch
+  - Fork the [use cases repo](https://github.com/nih-cfde/usecases) and create a new branch in your forked version
+  - Use the [use case file templates](https://github.com/nih-cfde/usecases/tree/master/docs/template_files) to format and add your new use case files to the appropriate directories on your branch
+  - Submit a PR from your forked repo branch to the `nih-cfde:preview` branch
   - After you submit the PR, make sure the repo checks complete (green check mark)
-  - If the checks complete successfully, merge the changes and view the [preview website](https://cfde-usecases.readthedocs-hosted.com/en/preview/) to check the changes. It can take ~30 minutes for the new changes to appear. If the checks failed, you can submit an [issue](https://github.com/nih-cfde/usecases/issues/new?template=usecase_suggestion_template.md&title=Add+use+case+idea+title) to request help (please include a reference (`#`) to your PR).
+  
+    **NOT SURE ABOUT STEPS FROM HERE**
+    
+  - If the checks complete successfully, request a review from `@ACharbonneau` or `@marisalim`. 
+  
+   If the checks failed, you can submit an [issue](https://github.com/nih-cfde/usecases/issues/new?template=usecase_suggestion_template.md&title=Add+use+case+idea+title) to request help (please include a reference (`#`) to your PR).
+
+
+
 
 **Second, if you are satisfied with the changes:**
 
   - Submit a new PR from your branch to the `master` branch
-  - Request reviews from Use Case maintainers by typing `@Acharbonneau` and `@marisalim` in your PR text box
+  - Request reviews from Use Case maintainers by typing `@ACharbonneau` and `@marisalim` in your PR text box
   - Please allow up to one week for admin to review your request
 
 
