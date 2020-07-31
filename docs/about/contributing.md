@@ -22,15 +22,15 @@ If you have a suggestion for a new use case concept and are not familiar with Gi
 
 If you are familiar with GitHub please either:
 
-  - [Open an issue](https://github.com/nih-cfde/usecases/issues/new?template=usecase_suggestion_template.md&title=Add+use+case+idea+title) describing your new use case idea
+  - Open a `NewUseCase` [issue](https://github.com/nih-cfde/usecases/issues/new/choose) describing your new use case idea
   
   - Or write up your use case and submit it as a pull request (PR). Please follow the [Use Case Style Guide](#usecasestyle) below.
   
 Please add labels to issue titles to help us quickly locate issue types. Some useful labels are: [new use case], [help wanted], [question], or [enhancement].
 
-If you would like to suggest an enhancement to the Use Case Repository, submit an [issue here]().
+Submit an `Enhancements` [issue](https://github.com/nih-cfde/usecases/issues/new/choose) to suggest improvements to the Use Case Repository.
 
-To request help, submit an [issue here]().
+Submit a `HelpWanted` [issue](https://github.com/nih-cfde/usecases/issues/new/choose) to request help.
 
 ### PR process
 If you are submitting a pull request, please create one pull request per use case so admin can check the complete change.
@@ -42,7 +42,7 @@ If you are submitting a pull request, please create one pull request per use cas
   - Submit a PR from your forked repo branch to the `nih-cfde:preview` branch
   - After you submit the PR, make sure the repo checks complete (green check mark)
   - If the checks complete successfully, the repo's bot will auto-merge your changes to the `preview` branch. Please check your changes on the [preview website](https://cfde-usecases.readthedocs-hosted.com/en/preview/). It may take ~30 minutes for the changes to show up.
-      - If the checks failed, please submit an [issue]() to request help. Please include a reference (using `#`) to your PR so we can check the build logs.
+      - If the checks failed, please submit a `HelpWanted` [issue](https://github.com/nih-cfde/usecases/issues/new/choose) to request help. Please include a reference (using `#`) to your PR so we can check the build logs.
 
 **Second, if you are satisfied with the changes:**
 
