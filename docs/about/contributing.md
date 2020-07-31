@@ -114,6 +114,7 @@ The **site index** is automatically created by yaml headers in each file (only t
 
 ### `Use Case` files
 - Use Case titles always begin with their `UCXXXX` ID
+- Use the [use case file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/use-case-template.md) to enter the required sections
 - Required sections:
     - yaml index header
     - Page header: title, date completed (`<month> <year>`), persona, objective
@@ -121,41 +122,40 @@ The **site index** is automatically created by yaml headers in each file (only t
     - `User Tasks`: a bullet point list of the tasks required for the use case, including links to each task page. Tasks are numbered by `TXXXX`.
     - `Requirements`: a bullet point list of the requirements for each task, including links to each requirement page. Requirements are numbered by `RXXXXX`.
 - The persona, objective, user tasks, and requirements need to be linked to their corresponding description page (detailed in the following sections)
-- See [use case file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/use-case-template.md)
-- Use case files should be saved [here](https://github.com/nih-cfde/usecases/tree/master/docs/use-cases)
+- Save use case files in the [use-cases directory](https://github.com/nih-cfde/usecases/tree/master/docs/use-cases)
 
 ### `Persona` files
+- Use the [persona file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/persona-template.md) to enter the required sections
 - Required sections:
     - yaml index header
     - Short description of their biological/computational experience, their role and responsibilities, and relation to any of the other Personas in the Use Cases Repository
     - A section listing assumptions about the persona's credentials e.g., access to the CFDE
-- See [persona file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/persona-template.md)
-- Persona files should be saved [here](https://github.com/nih-cfde/usecases/tree/master/docs/personas/)
+- Save persona files in the [personas directory](https://github.com/nih-cfde/usecases/tree/master/docs/personas/)
 
 ### `Objective` files
+- Use the [objective file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/objective-template.md) to enter the required sections
 - Required sections:
     - yaml index header
     - `<name of the task>:`: brief ~1 sentence description of the task
-- See [objective file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/objective-template.md)
-- Objective files should be saved [here](https://github.com/nih-cfde/usecases/tree/master/docs/objectives/)
+- Save objective files in the [objectives directory](https://github.com/nih-cfde/usecases/tree/master/docs/objectives/)
 
 ### `User task` files
 - The User Tasks title should be short and self-explanatory, but please add a short description as needed for clarity
 - User Task titles always begin with their `TXXXX` ID
+- Use the [user task file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/user-task-template.md) to enter the required sections
 - Required sections:
     - yaml index header
     - `Appears in Use Cases:`: bullet point list of the use case(s) that the task appears in, with page link to the use case page(s)
-- See [user task file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/user-task-template.md)
-- User task files should be saved [here](https://github.com/nih-cfde/usecases/tree/master/docs/user-tasks/)
+- Save user task files in the [user-tasks directory](https://github.com/nih-cfde/usecases/tree/master/docs/user-tasks/)
 
 ### `Requirement` files
 - The Requirements title should be short and self-explanatory, but please add a short description as needed for clarity
 - Requirement titles always begin with their `RXXXXX` ID
+- Use the [requirement file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/requirement-template.md) to enter the required sections
 - Required sections:
     - yaml index header
     - Requirement title (same as yaml index title)
     - An `Appears in` section with two sub-sections:
       - Under `User Tasks`: bullet point list of the task(s) that the requirement appears in, with page link to the user task page
       - Under `Use Cases`: bullet point list of the use case(s) that the requirement appears in, with page link to the use case page(s)
-- See [requirement file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/requirement-template.md)
-- Requirements files should be saved [here](https://github.com/nih-cfde/usecases/tree/master/docs/requirements/)
+- Save requirements files in the [requirements directory](https://github.com/nih-cfde/usecases/tree/master/docs/requirements/)
