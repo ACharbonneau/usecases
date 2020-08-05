@@ -7,6 +7,8 @@ labels: new use case
 assignees:
 ---
 
+**When submitting a new use case idea, please be sure to include the following:**
 
-Short description of use case: Describe your idea for a new use case here! Please include details about the required components: use case, persona, objective, user tasks, and requirements.
+- [ ] A descriptive title
+- [ ] Details about the required use case components: use case, persona, objective, user tasks, and requirements
 
