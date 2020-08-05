@@ -2,10 +2,15 @@
 layout: default
 name: NewUseCasePR
 about: Submitting new use case PR
-title: [New use case] Add use case idea title
+title: Add use case idea title
 labels:
 assignees:
 ---
+
+
+
+
+To do list for new use case submissions
 
 For previewing your changes:
 - [ ] Please provide a short description of the changes you're requesting.
