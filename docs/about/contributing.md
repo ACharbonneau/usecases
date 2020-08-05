@@ -26,30 +26,34 @@ If you are familiar with GitHub please either:
   
   - Or write up your use case and submit it as a pull request (PR). Please follow the [Use Case Style Guide](#usecasestyle) below.
   
-Please add labels to issue titles to help us quickly locate issue types. Some useful labels are: [new use case], [help wanted], [question], or [enhancement].
+!!! tip
 
-Submit an `Enhancements` [issue](https://github.com/nih-cfde/usecases/issues/new/choose) to suggest improvements to the Use Case Repository.
+    Please add labels to issue titles to help us quickly locate issue types. Some useful labels are: [new use case], [help wanted], [question], or [enhancement].
 
-Submit a `HelpWanted` [issue](https://github.com/nih-cfde/usecases/issues/new/choose) to request help.
+Issue templates | About
+--- | ---
+`NewUseCase` [issue](https://github.com/nih-cfde/usecases/issues/new/choose) | To describe and suggest a new use case idea
+`Enhancements` [issue](https://github.com/nih-cfde/usecases/issues/new/choose) | To suggest general improvements to the Use Case Repository
+`HelpWanted` [issue](https://github.com/nih-cfde/usecases/issues/new/choose) | To request general help
 
 ### PR process
 If you are submitting a pull request, please create one pull request per use case so admin can check the complete change.
 
-**First, preview new changes:**
+**First, add and preview new changes:**
 
   - Fork the [use cases repo](https://github.com/nih-cfde/usecases) and create a new branch in your forked version
   - Use the [use case file templates](https://github.com/nih-cfde/usecases/tree/master/docs/template_files) to format and add your new use case files to the appropriate directories on your branch
   - Submit a PR from your forked repo branch to the `nih-cfde:preview` branch
   - After you submit the PR, make sure the repo checks complete (green check mark)
   - If the checks complete successfully, the repo's bot will auto-merge your changes to the `preview` branch. Please check your changes on the [preview website](https://cfde-usecases.readthedocs-hosted.com/en/preview/). It may take ~30 minutes for the changes to show up.
+      - Please check that the new content renders correctly (e.g., check page format, table of content links, and page and web hyperlinks) and makes sense relative to existing content
       - If the checks failed, please submit a `HelpWanted` [issue](https://github.com/nih-cfde/usecases/issues/new/choose) to request help. Please include a reference (using `#`) to your PR so we can check the build logs.
 
-**Second, if you are satisfied with the changes:**
+**Second, when you are satisfied with the changes:**
 
   - Submit a new PR from your branch to the `master` branch
   - Request reviews from Use Case maintainers by typing `@ACharbonneau` and `@marisalim` in your PR text box
   - Please allow up to one week for admin to review your request
-
 
 ### Use Case approval process
 
@@ -90,7 +94,7 @@ The **site index** is automatically created by yaml headers in each file (only t
 
   The `parent` yaml value depends on the website tab the Use Case file appears in:
   
-  `parent:` value | Type
+  `parent:` value | About
   --- | ---
   `Use Cases` | for the main Use Case file
   `Personas` | for persona files
