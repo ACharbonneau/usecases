@@ -7,5 +7,12 @@ labels: help wanted
 assignees:
 ---
 
-Please include a description of the problem, including the steps you tried and any error messages.
+**When requesting help, please be sure to include the following:**
+
+- [ ] A descriptive title
+- [ ] The behavior you expect to see and the actual behavior observed, including any error messages
+- [ ] Steps to reproduce the behavior 
+- [ ] What browser you are using
+
+
 
