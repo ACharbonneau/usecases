@@ -7,7 +7,7 @@ labels:
 assignees:
 ---
 
-Enter a title and short description of the proposed changes. Tag @Acharbonneau or @marisalim for help.
+Enter a title and short description of the proposed changes. Tag @ACharbonneau or @marisalim for help.
 
 **When submitting a PR for a new use case, please be sure to provide and check the following:**
 
