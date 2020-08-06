@@ -1,12 +1,3 @@
----
-layout: default
-name: PRtemplate
-about: submit a PR
-title: Add title
-labels:
-assignees:
----
-
 Enter a title and short description of the proposed changes. Tag @ACharbonneau or @marisalim for help.
 
 **When submitting a PR for a new use case, please be sure to provide and check the following:**
