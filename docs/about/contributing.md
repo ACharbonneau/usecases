@@ -31,18 +31,19 @@ If you are submitting a pull request, please create one pull request per use cas
 
 **First, add and preview new changes:**
 
-  - Fork the [use cases repo](https://github.com/nih-cfde/usecases) and create a new branch in your forked version
-  - Use the [use case file templates](https://github.com/nih-cfde/usecases/tree/master/docs/template_files) to format and add your new use case files to the appropriate directories on your branch
-  - Submit a PR from your forked repo branch to the `nih-cfde:preview` branch
+  - [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the [use cases repo](https://github.com/nih-cfde/usecases) and create a new branch in your forked version.
+  - Use the [use case file templates](https://github.com/nih-cfde/usecases/tree/master/docs/template_files) to format and add your new use case files to the appropriate directories on your branch.
+  - After you add changes to your branch, you should see a message near the top of the repo page indicating that your branch is x number of commits ahead of `nih-cfde:master`. There should be a button for 'Pull request' and/or 'Compare' - they lead to the same page to create a PR. Submit a PR from your forked repo branch to the `nih-cfde:preview` branch. 
   - After you submit the PR, make sure the repo checks complete (green check mark)
-  - If the checks complete successfully, the repo's bot will auto-merge your changes to the `preview` branch. Please check your changes on the [preview website](https://cfde-usecases.readthedocs-hosted.com/en/preview/). It may take ~30 minutes for the changes to show up.
-      - Please check that the new content renders correctly (e.g., check page format, table of content links, and page and web hyperlinks) and makes sense relative to existing content
+  - If the checks complete successfully, the repo's bot will auto-merge your changes to the `preview` branch. Please check your changes on the [preview website](https://cfde-usecases.readthedocs-hosted.com/en/preview/). It may take ~30 minutes for the changes you added to show up.
+      - Please check that the new content renders correctly (e.g., check page format, table of content links, and page and web hyperlinks) and makes sense relative to existing content.
       - If the checks failed, please submit a `HelpWanted` [issue](https://github.com/nih-cfde/usecases/issues/new?labels=help+wanted&template=help_template.md&title=Add+problem+title) to request help. Please include a reference (using `#`) to your PR so we can check the build logs.
 
 **Second, when you are satisfied with the changes:**
 
-  - Submit a new PR from your branch to the `master` branch
+  - Create a new PR from your branch to the `nih-cfde:master` branch.
   - Request reviews from Use Case maintainers by typing `@ACharbonneau` and `@marisalim` in your PR text box
+  - After you submit the PR, make sure the repo checks complete (green check mark)
   - Please allow up to one week for admin to review your request
 
 ### Use Case approval process
