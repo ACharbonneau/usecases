@@ -49,14 +49,14 @@ If you are submitting a pull request, please create one pull request per use cas
 
 The Use Case committee will mark proposed use cases, and corresponding requirements pages, as `in progress`=&#x23F3;, `approved`=&#x1F44C;, and `done`=&#x2705;, as appropriate.
 
-If you have any questions about contributing, please an issue and we will lend a hand ASAP:
+If you have any questions about contributing, please submit an issue and we will lend a hand ASAP:
 
 Issue templates | About
 --- | ---
-`NewUseCase` [issue](https://github.com/nih-cfde/usecases/issues/new?labels=new+use+case&template=NewUseCase_template.md&title=Add+use+case+idea+title) | To describe and suggest a new use case idea
-`Enhancements` [issue](https://github.com/nih-cfde/usecases/issues/new?labels=enhancement&template=Enhancement_template.md&title=Add+suggested+enhancement+title) | To suggest general improvements to the Use Case Repository
-`HelpWanted` [issue](https://github.com/nih-cfde/usecases/issues/new?labels=help+wanted&template=help_template.md&title=Add+problem+title) | To request general help
-`Bug report` [issue](https://github.com/nih-cfde/usecases/issues/new?labels=bug&template=bug_template.md&title=Add+bug+title) | To report a bug
+[`NewUseCase issue`](https://github.com/nih-cfde/usecases/issues/new?labels=new+use+case&template=NewUseCase_template.md&title=Add+use+case+idea+title) | To describe and suggest a new use case idea
+[`Enhancements issue`](https://github.com/nih-cfde/usecases/issues/new?labels=enhancement&template=Enhancement_template.md&title=Add+suggested+enhancement+title) | To suggest general improvements to the Use Case Repository
+[`HelpWanted issue`](https://github.com/nih-cfde/usecases/issues/new?labels=help+wanted&template=help_template.md&title=Add+problem+title) | To request general help
+[`Bug report issue`](https://github.com/nih-cfde/usecases/issues/new?labels=bug&template=bug_template.md&title=Add+bug+title) | To report a bug
 
 Thank you for being here and for being a part of the CFDE project!
 
