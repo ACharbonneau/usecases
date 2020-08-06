@@ -22,7 +22,7 @@ If you have a suggestion for a new use case concept and are not familiar with Gi
 
 If you are familiar with GitHub please either:
 
-  - Open a `NewUseCase` [issue](https://github.com/nih-cfde/usecases/issues/new?labels=new+use+case&template=NewUseCase_template.md&title=Add+use+case+idea+title) describing your new use case idea
+  - Open a [`NewUseCase issue`](https://github.com/nih-cfde/usecases/issues/new?labels=new+use+case&template=NewUseCase_template.md&title=Add+use+case+idea+title) describing your new use case idea
   
   - Or write up your use case and submit it as a pull request (PR). Please follow the [Use Case Style Guide](#usecasestyle) below.
   
@@ -36,8 +36,8 @@ If you are submitting a pull request, please create one pull request per use cas
   - After you add changes to your branch, you should see a message near the top of the repo page indicating that your branch is x number of commits ahead of `nih-cfde:master`. There should be a button for 'Pull request' and/or 'Compare' - they lead to the same page to create a PR. Submit a PR from your forked repo branch to the `nih-cfde:preview` branch. 
   - After you submit the PR, make sure the repo checks complete (green check mark)
   - If the checks complete successfully, the repo's bot will auto-merge your changes to the `preview` branch. Please check your changes on the [preview website](https://cfde-usecases.readthedocs-hosted.com/en/preview/). It may take ~30 minutes for the changes you added to show up.
-      - Please check that the new content renders correctly (e.g., check page format, table of content links, and page and web hyperlinks) and makes sense relative to existing content.
-      - If the checks failed, please submit a `HelpWanted` [issue](https://github.com/nih-cfde/usecases/issues/new?labels=help+wanted&template=help_template.md&title=Add+problem+title) to request help. Please include a reference (using `#`) to your PR so we can check the build logs.
+      - Please check that the new content renders correctly (e.g., check page format, right-side table of contents links, and page and web hyperlinks) and makes sense relative to existing content.
+      - If the checks failed, please submit a [`HelpWanted issue`](https://github.com/nih-cfde/usecases/issues/new?labels=help+wanted&template=help_template.md&title=Add+problem+title) to request help. Please include a reference (using `#`) to your PR so we can check the correct website build logs.
 
 **Second, when you are satisfied with the changes:**
 
@@ -102,7 +102,7 @@ The **site index** is automatically created by yaml headers in each file (only t
   
   The Use Case committee will finalize yaml header page numbers to ensure they do not clash with existing files.
   
-**File names** should be lower case, have hyphens, and match the heading. Use Case (`ucXXXX`), User Task (`tXXXX`), and Requirement (`rXXXXX`) files should include a file ID numbered in order of appearance in this Use Case Repository website.
+**File names** should be lower case, have hyphens, and match the heading (but try to keep them concise). Use Case (`ucXXXX`), User Task (`tXXXX`), and Requirement (`rXXXXX`) files should include a file ID numbered in order of appearance in this Use Case Repository website.
 
    File type | Example
    --- | ---
@@ -138,7 +138,7 @@ The **site index** is automatically created by yaml headers in each file (only t
 - Use the [objective file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/objective-template.md) to enter the required sections
 - Required sections:
     - yaml index header
-    - `<name of the task>:`: brief ~1 sentence description of the task
+    - `<name of the task>`: brief ~1 sentence description of the task
 - Save objective files in the [objectives directory](https://github.com/nih-cfde/usecases/tree/master/docs/objectives/)
 
 ### `User task` files
@@ -147,7 +147,7 @@ The **site index** is automatically created by yaml headers in each file (only t
 - Use the [user task file template](https://github.com/nih-cfde/usecases/tree/master/docs/template_files/user-task-template.md) to enter the required sections
 - Required sections:
     - yaml index header
-    - `Appears in Use Cases:`: bullet point list of the use case(s) that the task appears in, with page link to the use case page(s)
+    - `Appears in Use Cases`: bullet point list of the use case(s) that the task appears in, with page link to the use case page(s)
 - Save user task files in the [user-tasks directory](https://github.com/nih-cfde/usecases/tree/master/docs/user-tasks/)
 
 ### `Requirement` files
